@@ -1,0 +1,20 @@
+.footer{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.button{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(98, 98, 98);
+    padding: 21px 34px;
+    background-color: #ffffff;
+    border: 1px solid rgb(98, 98, 98);
+    border-radius: 15px; 
+}
+
+.button:hover{
+    color: rgb(3, 169, 244);
+    cursor: pointer;
+}
