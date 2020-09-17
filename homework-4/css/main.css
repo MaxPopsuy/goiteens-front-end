@@ -1,0 +1,157 @@
+.main{
+
+}
+
+.subTitle{
+    font-family: 'Kaushan Script', cursive; 
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 128px;
+}
+
+.title{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.title::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin:0 auto;
+    margin-top: 42px;
+}
+
+.secondSubTitle{
+    font-family: 'Kaushan Script', cursive; 
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.secondTitle{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.secondTitle::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin:0 auto;
+    margin-top: 42px;
+}
+
+
+
+.container{
+    max-width: 1148px;
+    max-height: 239px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 92px;
+}
+
+.section{
+    width: 329px;
+    height: 69px;
+    display: flex;
+    margin-bottom: 101px;
+    margin-right: 72px;
+}
+
+.section:nth-child(3n+3){
+    margin-right: 0px;
+}
+
+.icon{
+    margin-right: 29px;
+    width: 32px;
+    height: 31px;
+}
+
+.iconTitle{
+    width: 113px;
+    height: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text{
+    width: 269px;
+    height: 39px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+
+.ourTeam{
+    /* display: flex; */
+    /* width: 380px;
+    height: 542px; */
+}
+
+.teamImg{
+    margin-right: 28px;
+    width: 380px;
+    height: 470px;
+}
+
+.teamImg:last-child{
+    margin-right: 0px;
+}
+
+.name{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.skill{
+    color: #b3b3b3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.card{
+    display: inline;
+    text-align: center;
+}
+
+.containerBottom{
+    max-width: 1202px;
+    display: flex;
+
+}
+
+.lorem{
+    color: rgb(153, 153, 153);
+    margin-top: 48px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 90px;
+}
