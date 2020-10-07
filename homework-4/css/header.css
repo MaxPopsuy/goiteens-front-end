@@ -1,6 +1,6 @@
 
 .header {
-    max-width: 1047px;
+    max-width: 1200px;
     display: flex;
     justify-content:space-between; 
     align-items: center;
@@ -8,12 +8,26 @@
     margin-bottom: 42px;
 }
 
-.logo{
+.logo {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: #95e1d3;
 }
+
+/* .logo::after {
+    background-color: #f38181;
+    display: block;
+    color: #f38181;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: #f38181;
+    transition: width .6s ease-in-out;
+} */
 
 .nav {
     
@@ -33,7 +47,7 @@ justify-content: right;
     list-style-type: none; 
     display: inline-block;
     margin-right: 57px;
-    cursor: poiter;
+    cursor: pointer;
     position: relative;
     line-height: 2;
 }
@@ -67,9 +81,5 @@ justify-content: right;
 }
 
 .listItemLink:hover {
-    
     color: #f38181;
-   
-
-    
 } 
