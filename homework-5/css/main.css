@@ -1,0 +1,233 @@
+.content{
+    
+}
+
+.subTitle{
+    font-family: 'Kaushan Script', cursive; 
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 128px;
+}
+
+.title{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.title::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin:0 auto;
+    margin-top: 42px;
+    margin-bottom: 66px;
+}
+
+.secondSubTitle{
+    font-family: 'Kaushan Script', cursive; 
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.secondTitle{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.secondTitle::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin:0 auto;
+    margin-top: 42px;
+}
+
+
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 92px;
+    justify-content: space-evenly; 
+}
+
+.section{
+    width: 329px;
+    height: 69px;
+    display: flex;
+    margin-bottom: 101px;
+    justify-content: space-between;
+    
+}
+
+
+
+.icon {
+    max-width: 61px;
+    height: 31px;
+    
+}
+
+.iconTitle{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.block {
+    width: 269px; 
+  
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+
+.cardContainer{
+   width: 380px;
+}
+
+
+
+.teamImg{
+    width: 380px;
+    
+    
+}
+
+.teamImg:hover{
+
+   
+}
+
+
+.teamName{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.teamPosition{
+    color: #b3b3b3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+.cardContainer{
+    position: relative;
+    font-size: 0;
+
+}
+
+.cardContainer:hover > .teamImg{
+    transform: translate(-10px, -10px);
+    transition: 500ms linear;
+}
+
+.gradient{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    top: 0;
+    left: 0;
+}
+
+.cardContainer:hover > .gradient{
+    top: -10px;
+    left: -10px;
+    transition: 500ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.8), rgba(238,213,133, 0.8));
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+}
+
+.cardContainer:hover  .social {
+    display: block;
+    
+}
+
+.card{
+    
+}
+
+.containerBottom{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 82px;
+}
+
+.lorem{
+    color: rgb(153, 153, 153);
+    margin-top: 48px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 90px;
+}
+
+.social{
+    display: none;
+    font-size: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 230px;
+}
+
+.socialLink {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+    position: relative;
+    margin-right: 1px;
+}
+
+.socialIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.socialLink:last-child{
+    margin-right: 0px;
+}
+
+.socialLink:hover{
+    background-color: #95e1d3;
+}

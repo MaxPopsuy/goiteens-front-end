@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+@import "./reset.css";
+
+@import "./header.css";
+
+@import "./main.css";
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
