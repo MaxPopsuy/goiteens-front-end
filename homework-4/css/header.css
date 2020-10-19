@@ -2,8 +2,8 @@
 .header {
     max-width: 1200px;
     display: flex;
-    justify-content:space-between; 
-    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 42px;
 }
@@ -30,31 +30,29 @@
 } */
 
 .nav {
-    
-    
+    width: 490px;
 }
 
 .navList {
-display: inline-block;
-justify-content: right;
-   
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .listItem {
+    justify-content: space-evenly;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
     list-style-type: none; 
     display: inline-block;
-    margin-right: 57px;
     cursor: pointer;
     position: relative;
     line-height: 2;
+    
 }
 
-.listItem:last-child{
-    margin-right: 0px;
-}
+
 
 .listItemLink {
     color: #95e1d3;
