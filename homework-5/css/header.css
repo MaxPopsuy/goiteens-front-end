@@ -1,14 +1,47 @@
 .header {
-    max-width: 1200px;
+    width: 1220px;
     display: flex;
-    justify-content:space-between; 
-    align-items: center; 
-    margin-top: 40px;
-    margin-bottom: 42px;
-    
+    position: fixed;
+    top:0;
+    left: 70px;
+    margin: 0 auto;
+    padding-top: 40px; 
+    justify-content: space-between;
+    background-color: #fff; 
+    z-index: 2;
+    padding-top: 28px; 
 }
 
 .menu {
+
+}
+
+.subMenu {
+    display: none;
+}
+
+
+
+.menuListItem:hover .subMenu{
+    display: block;
+    position: absolute;
+    min-width: 200px;
+    left: 0;
+    background-color: #fff;
+    border: #f38181 solid 1px;
+    border-radius: 4px;
+    padding: 10px 20px;
+
+}
+
+.menuListItemLink:hover
+
+
+.subMenuItemLink{
+
+}
+
+.subMenuItemLink:hover {
 
 }
 
@@ -27,6 +60,8 @@
     line-height: 2; 
 }
 
+
+
 .menuListItemLink {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -39,12 +74,14 @@
     color: #95e1d3;
 }
 
-.menuListItem:last-child{
-    margin-right: 0px;
-}
+
 
 .menuListItemLink:hover{
     color: #f38181;
+    padding: 6px 0;
+    outline: 2px;
+    transition: all 2s ease;
+   
 }
 
 .menuListItemLink:hover::after,

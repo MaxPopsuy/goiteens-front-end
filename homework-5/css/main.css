@@ -61,29 +61,86 @@
 
 
 .container{
-    max-width: 1200px;
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 92px;
-    justify-content: space-evenly; 
+    justify-content: space-around; 
+    margin: 0 auto;
 }
 
 .section{
+    
     width: 329px;
     height: 69px;
     display: flex;
     margin-bottom: 101px;
     justify-content: space-between;
+    position: relative;
     
 }
 
 
 
-.icon {
+.icon{
     max-width: 61px;
     height: 31px;
+}
+
+#alarm__icon {
+    position: relative;
+}
+
+#alarm__icon::before{
+    content: url("../img/icons/ALARM@1X.png");
+    position: absolute;
     
+}
+
+#line__graph {
+    position: relative;
+}
+
+#line__graph::before{
+    content: url("../img/icons/lineGraph.png");
+    position: absolute;
+}
+
+#computerbook {
+    position: relative;
+}
+
+#computerbook::before{
+    content: url("../img/icons/COMPUTEROK@1X.png");
+    position: absolute;
+}
+
+#book {
+    position: relative;
+}
+
+#book::before{
+    content: url("../img/icons/BOOK2@1X.png");
+    position: absolute;
+}
+
+#home {
+    position: relative;
+}
+
+#home::before{
+    content: url("../img/icons/HOME@1X.png");
+    position: absolute;
+}
+
+#digital {
+    position: relative;
+}
+
+#digital::before{
+    content: url("../img/icons/IMAGE@1X.png");
+    position: absolute;
 }
 
 .iconTitle{
@@ -91,24 +148,22 @@
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    padding-left: 61px;
 }
 
 .block {
-    width: 269px; 
-  
+    width: 269px;
 }
+
+
+
 
 .text{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: rgb(153, 153, 153);
+    padding-left: 61px;
 }
-
-.cardContainer{
-   width: 380px;
-}
-
-
 
 .teamImg{
     width: 380px;
@@ -116,10 +171,6 @@
     
 }
 
-.teamImg:hover{
-
-   
-}
 
 
 .teamName{
@@ -144,7 +195,7 @@
 .cardContainer{
     position: relative;
     font-size: 0;
-
+    width: 380px;
 }
 
 .cardContainer:hover > .teamImg{
@@ -181,13 +232,15 @@
 
 .containerBottom{
     max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     margin-bottom: 82px;
 }
 
 .lorem{
+    width: 940px;
+    margin: 0 auto;
     color: rgb(153, 153, 153);
     margin-top: 48px;
     text-align: center;
