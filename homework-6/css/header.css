@@ -1,0 +1,53 @@
+@font-face{
+
+    font-family: 'Wisdom-Script';
+    src: url('../fonts/Wisdom\ Script\ AJ.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}    
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+    padding-bottom: 127px;
+}
+
+.logo{
+    display: inline-block;
+    font-family: 'Wisdom-Script';
+    
+}
+.logo__link{
+    color: #fed44c;
+}
+
+.menu {
+    width: 480px;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__list-item{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu__list__item-link{
+    color: #222222;
+    transition: all 1s ease;
+
+}
+
+.menu__list__item-link:hover{
+    color: #fed136;
+    
+}
