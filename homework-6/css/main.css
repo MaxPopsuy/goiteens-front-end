@@ -1,4 +1,4 @@
-.services{
+.main{
     
 }
 
@@ -25,7 +25,8 @@
     min-width: 940px;
     display: flex;
     justify-content: space-evenly;
-
+    width: 940px;
+    margin: 0 auto;
 }
 
 .services__card{
@@ -115,7 +116,7 @@
     justify-content: space-between;
 }
 
-.forms__input-feetback{
+.forms__input-feedback{
     
 }
 

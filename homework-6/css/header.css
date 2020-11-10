@@ -12,15 +12,18 @@
     justify-content: space-around;
     padding-top: 55px;
     padding-bottom: 127px;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .logo{
     display: inline-block;
     font-family: 'Wisdom-Script';
-    
+    font-weight: 300;
 }
 .logo__link{
     color: #fed44c;
+    
 }
 
 .menu {
