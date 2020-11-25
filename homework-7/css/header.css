@@ -1,0 +1,317 @@
+.header{
+    padding: 1rem 1rem 0 1rem;
+    padding-bottom: 117px;
+    background-image: url(../img/VectorSmartObject@1X.png);
+    background-color: rgba(0, 0, 0, 0.8 );
+    background-repeat: no-repeat;
+}
+
+
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.logo__link{
+    color: #ffffff;
+}
+
+.menu{
+    width: 190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__list > li{
+    display: inline-block;
+}
+
+.menu__button{
+    margin: 0 auto;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 12px 18px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    outline:none;
+    
+}
+
+
+
+.menu__button:hover{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 36px;
+    transition: 2s all;
+}
+
+.header__title {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 38px;
+    margin-bottom: 19px;
+}
+
+.header__sub-title{
+    color: #eee3de;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    width: 217px;
+    margin: 0 auto;
+}
+
+.header__button-find{
+    width: 87.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 14px;
+    background-color: #ff4e50;
+    border: 0px;
+    border-radius: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+
+
+@media screen and (min-width: 768px){
+    
+    .header{
+        padding-bottom: 139px;
+        background-image: url(../img/VectorSmartObject@1X\ \(2\).png);
+        background-color: rgba(0, 0, 0, 0.8 );
+        background-position: center;
+        
+    }
+    
+    .nav-logo_wrapper{
+        width: 669px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 auto;
+        justify-content: space-between;
+        
+    }
+    
+    .logo{
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        margin-top: 46px;
+        margin-bottom: 150px;
+        
+    }
+    
+    .menu__list > li {
+        /* margin-top: 46px; */
+    }
+
+    .logo__link{
+        color: #ffffff;
+    }
+    
+    .menu{
+       
+        width: 190px;
+        margin: 0;
+        padding-top: 0;
+        margin-top: 36px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .menu__button{
+        margin: 0 auto;
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+        padding: 12px 18px;
+        background-color: transparent;
+        border: 2px solid transparent;
+        outline:none;
+        
+    }
+    
+    
+    
+    .menu__button:hover{
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        border-radius: 36px;
+        /* transition: 2s ease-in-out; */
+    }
+    
+    .header__title {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 160px;
+        width: 503px;
+        margin: 0 auto;
+    }
+    
+    .header__sub-title{
+        color: #eee3de;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 24px;
+        margin-top: 40px;
+        width: 398px;
+        
+    }
+    
+    .header__button-find{
+        width: 237px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: #ffffff;
+        padding:  14px 25px;
+        background-color: #ff4e50;
+        border: 0px;
+        border-radius: 40px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+
+    
+}
+
+@media screen and (min-width: 1440px){
+    .header{
+        background-image: url(../img/VectorSmartObject@1X\ \(2\).png);
+        background-color: rgba(0, 0, 0, 0.8 );
+        background-position: center;
+        
+    }
+    
+    .nav-logo_wrapper{
+        width: 939px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 auto;
+        justify-content: space-between;
+        
+    }
+    
+    .logo{
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        margin-top: 46px;
+        margin-bottom: 150px;
+        
+    }
+    
+    .menu__list > li {
+        /* margin-top: 46px; */
+    }
+
+    .logo__link{
+        color: #ffffff;
+    }
+    
+    .menu{
+       
+        width: 190px;
+        margin: 0;
+        padding-top: 0;
+        margin-top: 36px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .menu__button{
+        margin: 0 auto;
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+        padding: 12px 18px;
+        background-color: transparent;
+        border: 2px solid transparent;
+        outline:none;
+        
+    }
+    
+    
+    
+    .menu__button:hover{
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        border-radius: 36px;
+        /* transition: 2s ease-in-out; */
+    }
+    
+    .header__title {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 160px;
+        width: 503px;
+        margin: 0 auto;
+    }
+    
+    .header__sub-title{
+        color: #eee3de;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 24px;
+        margin-top: 40px;
+        width: 398px;
+        
+    }
+    
+    .header__button-find{
+        width: 237px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: #ffffff;
+        padding:  14px 25px;
+        background-color: #ff4e50;
+        border: 0px;
+        border-radius: 40px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+
+}
